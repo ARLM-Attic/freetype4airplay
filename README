@@ -1,0 +1,4 @@
+1. Download fresh FreeType source code here:
+http://sourceforge.net/projects/freetype/files/
+2. Unzip it.
+3. Put files from "trunk\freetype\builds\airplay\" into "freetype-2.4.4\builds\" folder or vice versa.
