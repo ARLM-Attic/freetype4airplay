@@ -1,0 +1,18 @@
+
+includepaths
+{
+	"include"
+}
+files
+{
+	[src]
+	("src")
+
+	[include]
+	("include")
+}
+subprojects
+{
+	iwgraphics
+	iwgx
+}

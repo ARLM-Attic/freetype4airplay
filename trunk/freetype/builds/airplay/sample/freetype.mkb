@@ -1,0 +1,31 @@
+#!/usr/bin/env i3d_make_build.py
+
+option 
+{
+	strict
+	s3e-data-dir="./data" 
+}
+
+assets
+{
+}
+
+files
+{
+	[Source]
+	(./)
+	main.cpp
+}
+
+deployments
+{
+}
+
+subprojects
+{
+	derbh
+	iwgraphics
+	iwgx
+	iwutil
+	../freetype.mkf
+}
