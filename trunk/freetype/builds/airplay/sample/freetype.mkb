@@ -6,6 +6,11 @@ option
 	s3e-data-dir="./data" 
 }
 
+defines 
+{ 
+	FT2_BUILD_LIBRARY
+} 
+
 assets
 {
 }

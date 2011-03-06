@@ -1,5 +1,7 @@
 #include <s3e.h>
 #include <IwGx.h>
+//#include <ft2build.h>
+//#include FT_FREETYPE_H
 
 //-----------------------------------------------------------------------------
 // Main global function
@@ -12,6 +14,12 @@ int main()
 	IwGxSetColClear(0xff, 0xff, 0xff, 0xff);
 	IwGxPrintSetColour(128, 128, 128);
 
+	//FT_Error  error;
+    //FT_Library  library;      /* the FreeType library */
+    //FT_Face     face;         /* the font face        */
+
+	//error = FT_Init_FreeType( &library );
+	//IwAssertMsg(FT, error, ("Could not initialize FreeType library") );
 
 	while (1)
 	{
@@ -32,6 +40,8 @@ int main()
 		IwGxFlush();
 		IwGxSwapBuffers();
 	}
+
+	//FT_Done_FreeType( library );
 
 	IwResManagerTerminate();
 	IwGxTerminate();
